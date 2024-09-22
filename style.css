@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+:root{
+--color: #333; 
+}
+
+
+
+.container {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?cs=srgb&dl=pexels-jplenio-1423600.jpg&fm=jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+p {
+  max-width: 82ch;
+  line-height: 1.5;
+  padding: 1.5em;
+  font-size: 1.5rem;
+  color: white;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+}
+
+.blank{
+    width: 100%;
+    min-height: 30vh;
+    background-image: linear-gradient(to right, rgba(3, 60, 15) , rgba(4, 27, 16));
+}
+.about-text{
+    max-width: 500ch;
+    line-height: 2.2;
+    padding: 1.5em;
+    font-size: 1.2rem;
+    color:white;
+    text-align: center;
+}
+
+
+
+.three{
+    background-image: url("https://img.freepik.com/free-photo/beautiful-japanese-forest-scene_23-2151498135.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726963200&semt=ais_hybrid");
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.second {
+  background-image:url("https://img.freepik.com/free-photo/beautiful-japanese-forest-scene_23-2151498109.jpg");
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1em;
+}
+
+.card > a {
+  margin-bottom: 2em;
+}
+.card-text{
+    color: black;
+    max-width: 82ch;
+  line-height: 1.5;
+  padding: 1.5em;
+  font-size: 1.5rem;
+}
+
+.item {
+  display: flex;
+  max-width: 320px;
+  background-color: white;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img {
+  width: 90%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+.img-first {
+  background-image: url("https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1606&q=80");
+
+}
+.img-first:hover{
+  transform: scale(1.1);
+} 
+.img-second:hover{
+  transform: scale(1.1);
+} 
+.img-third:hover{
+  transform: scale(1.1);
+} 
+
+
+.img-second {
+  background-image: url("https://images.unsplash.com/photo-1628746404106-4d3843b231b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F2aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60");
+}
+
+.img-third {
+  background-image: url("https://images.unsplash.com/photo-1632853073412-782bf0279d65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+}
+
+.second {
+  flex-direction: row;
+  gap: 1.6em;
+}
+#btn:hover{
+  color: #333;
+  background-color: white;
+
+  border: 1px solid  #333;
+}
+.item:hover{
+  cursor: pointer;
+  transform: translateY(-18px);
+}
+#btn{
+ margin-bottom: 20px;
+}
+@media (max-width:480px)
+{
+   html,body{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+   }
+  
+
+:root{
+--color: #333; 
+}
+
+
+
+.container {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?cs=srgb&dl=pexels-jplenio-1423600.jpg&fm=jpg');
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+p {
+  max-width: 82ch;
+  line-height: 1.5;
+  padding: 1.5em;
+  font-size: 1.5rem;
+  color: white;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+}
+
+
+.blank{
+    width: 100%;
+    min-height: 30vh;
+    background-image: linear-gradient(to right, rgba(3, 60, 15) , rgba(4, 27, 16));
+}
+.about-text{
+    max-width: 500ch;
+    line-height: 2.2;
+    padding: 1.5em;
+    font-size: 1.2rem;
+    color:white;
+    text-align: center;
+}
+
+
+
+.three{
+    /* background-image: url("https://img.freepik.com/free-photo/beautiful-japanese-forest-scene_23-2151498135.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726963200&semt=ais_hybrid"); */
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.second {
+    background-attachment: fixed;
+  height: 3500px;
+ gap:20px ;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1em;
+}
+.card{
+  margin-top: 30px;
+  align-items: center;
+  text-align: center;
+}
+.card > a {
+  margin-bottom: 2em;
+}
+.card-text{
+    color: black;
+    max-width: 82ch;
+  line-height: 1.5;
+  padding: 1.5em;
+  font-size: 1.5rem;
+}
+
+.item {
+  display: flex;
+  max-width: 320px;
+  background-color: white;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  margin-bottom: 30px;
+  /* padding-top: 50px; */
+  margin-left: 45px;
+}
+
+.img {
+  width: 90%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+
+
+
+.img-first:hover{
+  transform: scale(1.1);
+} 
+.img-second:hover{
+  transform: scale(1.1);
+} 
+.img-third:hover{
+  transform: scale(1.1);
+} 
+
+.second {
+  flex-direction: row;
+  gap: 1.6em;
+}
+#btn:hover{
+  color: #333;
+  background-color: white;
+
+  border: 1px solid  #333;
+}
+.item:hover{
+  cursor: pointer;
+  transform: translateY(-8px);
+}
+  
+}
